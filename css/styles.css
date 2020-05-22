@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo|Noto+Sans|Oswald|Pacifico&display=swap');
+
+*{
+	font-family:  'Noto Sans', sans-serif;
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+ #header, #footer, nav{
+	padding: 1rem;
+	background-color: rgba(200, 50, 50, .5);
+	font-variant: small-caps;
+}
+#header {
+	color: rgb(154, 97, 201);
+	background: url(florazul.jpg); 
+	background-position: center bottom;
+	
+}
+.header {
+	margin: 5px auto;
+	width: 300px;
+}
+.header h1, .header p {
+	margin: 0;
+}
+.header p {
+	letter-spacing: .5rem;
+	padding-left: 30%;
+}
+#menu {
+	display: none;
+}
+.menu {
+	padding: 0 0 0 10px;
+}
+.menu li {
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	width: 80px;
+}
+.menu li:hover {
+	background-color:rgb(212, 140, 140);
+	box-shadow: 0 0 5px white;
+	transform: scale(1.1,1.1);
+
+}
+nav {
+	padding: 10px;
+	text-align: center;
+}
+nav a {
+	color: white;
+	text-decoration: none;
+}
+section {
+	width: 300px;
+	padding: 1rem;
+	border: 1px solid #ffa47d;
+	margin:15px 20px;
+	float: left;
+	border-radius: 1rem;}
+	
+article {
+	overflow: hidden;
+	width: 80%;
+	margin: auto;
+}
+#footer {
+	background: url(florazul.jpg);
+	background-position: center top;
+	color:  rgb(154, 97, 201);
+}
+
+
+#contacto {
+	width: 420px;
+	margin: auto;
+}
+input, textarea, #contacto button {
+	width: 420px;
+	resize: none;
+}
+.social {
+	width: 420;
+	text-align: center;
+	margin: auto;
+}
+.social img {
+	padding: 10px;
+	margin: 10px 0 0 0;
+}
